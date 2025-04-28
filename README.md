@@ -65,4 +65,9 @@ Canvas API (for screenshots and overlays)
 ![image](https://github.com/user-attachments/assets/629d88cc-a856-4bff-a07b-8970e21d60bd)
 
 
+TEAM VOID (SENTINEL HACK 5.0):
+Ullas CL
+Tejs Kumar D
+Vrishank Bhargav
+Sujan Bharadwaj V
 

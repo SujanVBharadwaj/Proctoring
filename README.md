@@ -54,10 +54,11 @@ Web Audio API (for microphone sound analysis)
 
 Canvas API (for screenshots and overlays)
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 **SCREENSHOTS**
 
-![image](https://github.com/user-attachments/assets/c6f6e228-c555-4cb4-a410-2e0ad8af929a)
-
+![image](https://github.com/user-attachments/assets/f2388198-e215-4e33-ba29-94aa19a832b3)
 
 ![image](https://github.com/user-attachments/assets/49cde7e7-2212-4f7b-83e0-22d54c8b4117)
 

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Proctoring System (AI Upgraded)</title>
+  
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/face_detection/face_detection.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <h1>Proctoring Test System</h1>
+
+  <div id="setup-panel">
+    <h2>Setup</h2>
+    <button id="camera-permission">Allow Camera Access</button>
+
+    <div id="camera-preview" class="hidden">
+      <h3>Camera Preview</h3>
+      <video id="setup-webcam" width="320" height="240" autoplay muted></video>
+      <button id="start-test" disabled>Start Test</button>
+    </div>
+  </div>
+
+  <div id="test-area" class="hidden">
+    <h2>Test Running</h2>
+    <p>Status: <span id="status">Normal</span></p>
+
+    <div class="monitoring">
+      <h3>Activity Monitoring</h3>
+      <div id="mouse-activity">
+        <div id="activity-indicator"></div>
+      </div>
+    </div>
+
+    <div class="monitoring">
+      <h3>Video and Mic Monitoring</h3>
+      <div style="position: relative;">
+        <video id="webcam-feed" width="480" height="360" autoplay muted></video>
+        <canvas id="face-overlay" style="position:absolute;top:0;left:0;z-index:10;pointer-events:none;"></canvas>
+      </div>
+
+      <div id="mic-indicator" style="width:100px;height:10px;background-color:gray;margin-top:10px;"></div>
+      <p>Face Detected: <span id="face-status">Checking...</span></p>
+      <p>People Count: <span id="people-count">0</span></p>
+      <img id="latest-screenshot" src="/api/placeholder/160/120" alt="Screenshot">
+    </div>
+
+    <div class="monitoring">
+      <h3>Violations</h3>
+      <div id="violations"></div>
+    </div>
+
+    <button id="end-test">End Test</button>
+  </div>
+
+  <div id="results" class="hidden">
+    <h2>Test Results</h2>
+    <div id="violation-log"></div>
+    <button id="reset">Start New Test</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -60,7 +60,7 @@ Canvas API (for screenshots and overlays)
 
 ![image](https://github.com/user-attachments/assets/f2388198-e215-4e33-ba29-94aa19a832b3)
 
-![image](https://github.com/user-attachments/assets/49cde7e7-2212-4f7b-83e0-22d54c8b4117)
+![image](https://github.com/user-attachments/assets/989e7e11-4674-420f-94dc-220020bb8163)
 
 ![image](https://github.com/user-attachments/assets/629d88cc-a856-4bff-a07b-8970e21d60bd)
 

@@ -16,6 +16,8 @@ Unusual mouse activity
 Mouse inactivity
 
 The system automatically logs violations, captures screenshots when necessary, and can terminate the test if too many violations occur.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
 **Features**
 🎥 Camera Monitoring: Detects if a user is present via webcam (using MediaPipe Pose).
 
@@ -29,6 +31,8 @@ The system automatically logs violations, captures screenshots when necessary, a
 
 📝 Violation Logging: Displays a list of all recorded violations at the end of the test.
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 **Permissions**
 The app will request access to:
 
@@ -37,6 +41,8 @@ Camera: For user detection.
 Microphone: For loud sound detection.
 
 Without granting access, the system cannot function properly.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Technology Stack**
 
@@ -47,3 +53,15 @@ MediaPipe Pose by Google (for webcam pose detection)
 Web Audio API (for microphone sound analysis)
 
 Canvas API (for screenshots and overlays)
+
+**SCREENSHOTS**
+
+![image](https://github.com/user-attachments/assets/c6f6e228-c555-4cb4-a410-2e0ad8af929a)
+
+
+![image](https://github.com/user-attachments/assets/49cde7e7-2212-4f7b-83e0-22d54c8b4117)
+
+![image](https://github.com/user-attachments/assets/629d88cc-a856-4bff-a07b-8970e21d60bd)
+
+
+

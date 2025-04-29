@@ -57,6 +57,7 @@ Canvas API (for screenshots and overlays)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **SCREENSHOTS**
+(CAmera access not given here ...pls give camera acces to get accurate resuslts )
 
 ![image](https://github.com/user-attachments/assets/f2388198-e215-4e33-ba29-94aa19a832b3)
 

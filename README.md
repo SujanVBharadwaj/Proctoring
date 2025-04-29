@@ -66,8 +66,8 @@ Canvas API (for screenshots and overlays)
 
 
 TEAM VOID (SENTINEL HACK 5.0):
-Ullas CL
-Tejs Kumar D
-Vrishank Bhargav
-Sujan Bharadwaj V
+Ullas CL,
+Tejs Kumar D,
+Vrishank Bhargav,
+Sujan Bharadwaj V.
 
